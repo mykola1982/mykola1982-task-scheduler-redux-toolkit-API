@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/task-scheduler-redux-toolkit-API/static/css/main.013c0f75.css",
-    "main.js": "/task-scheduler-redux-toolkit-API/static/js/main.6e8b537c.js",
+    "main.js": "/task-scheduler-redux-toolkit-API/static/js/main.5aab3223.js",
     "index.html": "/task-scheduler-redux-toolkit-API/index.html",
     "main.013c0f75.css.map": "/task-scheduler-redux-toolkit-API/static/css/main.013c0f75.css.map",
-    "main.6e8b537c.js.map": "/task-scheduler-redux-toolkit-API/static/js/main.6e8b537c.js.map"
+    "main.5aab3223.js.map": "/task-scheduler-redux-toolkit-API/static/js/main.5aab3223.js.map"
   },
   "entrypoints": [
     "static/css/main.013c0f75.css",
-    "static/js/main.6e8b537c.js"
+    "static/js/main.5aab3223.js"
   ]
 }
