@@ -1,8 +1,9 @@
 // Імпортуємо хук
-import { useDispatch } from 'react-redux/es/exports';
+import { useDispatch } from 'react-redux';
 
 // Імпортуємо генератор екшену
-import { deleteTask, toggleCompleted } from 'redux/tasksSlice';
+// import { deleteTask, toggleCompleted } from 'redux/tasksSlice';
+import { deleteTask, toggleCompleted } from 'redux/operations';
 
 import { MdClose } from 'react-icons/md';
 import css from './Task.module.css';
@@ -18,7 +19,7 @@ export const Task = ({ task }) => {
 
   // Викликаємо генератор екшену та передаємо ідентифікатор завдання
   // Відправляємо результат - екшен перемикання статусу завдання
-  const handleToggle = () => dispatch(toggleCompleted(task.id));
+  const handleToggle = () => dispatch(toggleCompleted(task));
 
   return (
     <div className={css.wrapper}>

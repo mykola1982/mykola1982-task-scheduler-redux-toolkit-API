@@ -1,7 +1,7 @@
 // Імпортуємо хук
 import { useDispatch } from 'react-redux/es/exports';
 // Імпортуємо генератор екшену
-import { addTask } from 'redux/tasksSlice';
+import { addTask } from 'redux/operations';
 import { Button } from 'components/Button/Button';
 import css from './TaskForm.module.css';
 
