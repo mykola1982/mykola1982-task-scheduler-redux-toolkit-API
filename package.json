@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mykola1982.github.io/task-scheduler-redux-toolkit/",
+  "homepage": "https://mykola1982.github.io/task-scheduler-redux-toolkit-API/",
   "dependencies": {
     "@redux-devtools/extension": "^3.2.3",
     "@reduxjs/toolkit": "^1.9.1",
